@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { ObjectId } = mongoose.Scema;
+const { ObjectId } = mongoose.Schema;
 
 const categoryScema = new mongoose.Schema({
     name: {
